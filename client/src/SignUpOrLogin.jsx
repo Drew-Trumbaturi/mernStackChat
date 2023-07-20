@@ -15,6 +15,7 @@ export default function SignUpOrLogin() {
 
   async function handleSubmit(ev) {
     ev.preventDefault();
+    //this is a test for github
 
     const signupData = { firstName, lastName, username, email, password };
     const loginData = { username, password };
